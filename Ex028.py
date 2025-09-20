@@ -8,6 +8,6 @@ if numero_computador == numero_usuario:
     print('Voce acertou!')
 
 else:
-    print('Voce errou:')
+    print('Voce errou!!!')
 
 
