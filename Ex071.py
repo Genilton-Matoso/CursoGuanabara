@@ -24,3 +24,14 @@ while True:
             break
 print('='*30)
 print('Volte sempre ao BANCO CEV! Tenha um bom dia!')
+
+
+'''Outra forma de fazer o exercicio:
+
+valor = int(input("Quanto você quer sacar? R$"))
+
+for cedula in [50, 20, 10, 1]:
+    quantidade = valor // cedula
+    valor %= cedula
+    if quantidade > 0:
+        print(f"{quantidade} cédula(s) de R${cedula}")'''
