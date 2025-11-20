@@ -1,4 +1,4 @@
-from math import sqrt,hypot
+from math import hypot
 co = float(input('Comprimento do cateto oposto: '))
 adj = float(input('Comprimento do cateto adjacente: '))
 hip = hypot(co, adj) # calculo da hipotenusa
