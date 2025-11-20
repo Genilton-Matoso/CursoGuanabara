@@ -1,8 +1,19 @@
-numero = int(input('Digite um número inteiro: '))
-binario = ''
-print(bin(numero)[2:])
-while numero > 0:
-        binario += str((numero % 2))
-        numero = numero // 2
-print(binario[::-1])
+lista = []
+
+while True:
+    valor = int(input('Digite um valor: '))
+
+    if valor not in lista:
+        lista.append(valor)
+        print('Valor adicionado com sucesso...')
+    else:
+        print('Valor duplicado! Não vou adicionar...')
+
+    continuar = str(input('Deseja continuar? [S/N] '))
+    if continuar in 'Nn':
+        break
+print('-='*30)
+lista.sort()
+print(f'Você digitou os valores {lista}')
+
 
